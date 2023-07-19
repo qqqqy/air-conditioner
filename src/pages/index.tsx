@@ -1,7 +1,6 @@
 import React from 'react'
 import { Button } from '@mui/material'
 
-import ProTip from '~/components/ProTip'
 import RemoteControl from '~/components/RemoteControl'
 
 import AirConditioner from '~/components/ac/AirConditioner'
@@ -36,7 +35,6 @@ const Home: React.FC = () => {
         <h1 className="text-center text-3xl">
           便携小空调
         </h1>
-        <ProTip />
         <AirConditioner
           status={ac.status}
           temperature={ac.temperature}
