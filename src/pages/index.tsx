@@ -35,6 +35,7 @@ const Home: React.FC = () => {
         <h1 className="text-center text-3xl">
           便携小空调
         </h1>
+        <br/>
         <AirConditioner
           status={ac.status}
           temperature={ac.temperature}
